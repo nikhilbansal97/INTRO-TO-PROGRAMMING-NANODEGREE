@@ -1,0 +1,29 @@
+.padding{
+    padding: 40px;
+    margin-bottom: 30px;
+    border: 15px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: navy;
+    border-spacing: 20px;
+    background-color: #84A2DE;
+}
+.heading{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+.concept-description{
+    font-style: italic;
+    font-family: monospace;
+}
+.concept-title{
+    font-weight: 700;
+}
+#image{
+    text-align: right;
+    float: right;
+}
+.container{
+    background-color: #1D2F7C;
+}

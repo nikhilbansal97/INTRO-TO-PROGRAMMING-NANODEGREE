@@ -1,0 +1,21 @@
+h1{
+  font-family: "Comic Sans MS",cursive,sans-serif;
+  color: blue;
+  text-align: center;
+}
+h2{
+  font-family: "Lucida Console",monospace;
+  color: #59E9F2;
+}
+h3{
+  color: #DC2505;
+}
+hr{
+  color: black ;
+}
+body{
+	background-color: #B97AF1;
+}
+.heading{
+    color: red;
+}
