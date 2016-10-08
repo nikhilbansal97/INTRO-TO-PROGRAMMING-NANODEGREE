@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nikhil.smallbusiness.MainActivity">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EDE7F6">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pizza"
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origional Italian Wood Oven Pizza"
+        android:textSize="20sp"
+        android:layout_below="@+id/main"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FB8C00"
+        android:id="@+id/textView"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Italia"
+        android:textSize="60sp"
+        android:textColor="#FF5722"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:orientation="vertical"
+        android:id="@+id/description">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="#212121"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" An Amazing Pizza Shop!! "
+            android:textSize="20sp"
+            android:layout_marginLeft="40dp"/>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/description"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:id="@+id/address1">
+
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address : "
+        android:textSize="25sp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/description"
+        android:textColor="#212121"/>
+    <TextView
+        android:id="@+id/address2"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:textColor="#757575"
+        android:textSize="19sp"
+        android:text="Caliber Market, Opp. ALPS Theatre\nNear Honda Agency,Patiala Road\nRajpura (132001)"
+        android:layout_above="@+id/address3"
+        android:layout_marginLeft="40dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone No:"
+            android:textColor="#212121"
+            android:textSize="25sp"
+            android:layout_below="@id/address3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  +91 9780219219"
+            android:textSize="19sp"
+            android:autoLink="phone" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>
