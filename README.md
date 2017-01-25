@@ -11,4 +11,4 @@ In this project we have to built a Movie Trailer Webpage using html,css and pyth
 # Project 5 : 
 In this project we have to option to work on projects like Front End or Android App Development or Data Analysis etc. I have made and Android App. It is a simple business card which describes a local business and givs information like th Address,Description,Phone No.
 ##Nanodegree Certificate:
-![Certificate](certificate.jpg)
+![Certificate](ITPL Certificate.jpg)
